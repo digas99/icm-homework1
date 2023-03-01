@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:columnCount="3"
+        app:rowCount="7">
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+            android:layout_marginTop="24dp"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:translationY="-10dp"
+            app:layout_column="0"
+            app:layout_columnSpan="3"
+            app:layout_row="0"
+            tools:text="1234" />
+
+        <Button
+            android:id="@+id/speedDial1"
+            android:layout_width="0dp"
+            android:layout_margin="3dp"
+            android:backgroundTint="#3186C8"
+            android:textSize="16sp"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/speedDial2"
+            android:layout_width="0dp"
+            android:layout_margin="3dp"
+            android:backgroundTint="#3186C8"
+            android:textSize="16sp"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/speedDial3"
+            android:layout_width="0dp"
+            android:layout_margin="3dp"
+            android:backgroundTint="#3186C8"
+            android:textSize="16sp"
+            app:layout_column="2"
+            app:layout_columnWeight="1"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="0dp"
+            android:layout_margin="3dp"
+            android:backgroundTint="#454545"
+            android:text="#"
+            android:textSize="45sp"
+            app:layout_column="2"
+            app:layout_columnWeight="1"
+            app:layout_row="5" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="0dp"
+            android:layout_margin="3dp"
+            android:backgroundTint="#454545"
+            android:text="0"
+            android:textSize="45sp"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_row="5" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="0dp"
+            android:layout_margin="3dp"
+            android:backgroundTint="#454545"
+            android:text="9"
+            android:textSize="45sp"
+            app:layout_column="2"
+            app:layout_columnWeight="1"
+            app:layout_row="4" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="0dp"
+            android:layout_margin="3dp"
+            android:backgroundTint="#454545"
+            android:text="8"
+            android:textSize="45sp"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_row="4" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="0dp"
+            android:layout_margin="3dp"
+            android:backgroundTint="#454545"
+            android:text="6"
+            android:textSize="45sp"
+            app:layout_column="2"
+            app:layout_columnWeight="1"
+            app:layout_row="3" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_margin="3dp"
+            android:backgroundTint="#454545"
+            android:text="1"
+            android:textSize="45sp"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_row="2" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_margin="3dp"
+            android:backgroundTint="#454545"
+            android:text="2"
+            android:textSize="45sp"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_row="2" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            android:layout_margin="3dp"
+            android:backgroundTint="#454545"
+            android:text="3"
+            android:textSize="45sp"
+            app:layout_column="2"
+            app:layout_columnWeight="1"
+            app:layout_row="2" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="0dp"
+            android:layout_margin="3dp"
+            android:backgroundTint="#454545"
+            android:text="4"
+            android:textSize="45sp"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_row="3" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="0dp"
+            android:layout_margin="3dp"
+            android:backgroundTint="#454545"
+            android:text="5"
+            android:textSize="45sp"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_row="3" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="0dp"
+            android:layout_margin="3dp"
+            android:backgroundTint="#454545"
+            android:text="7"
+            android:textSize="45sp"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_row="4" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="0dp"
+            android:layout_margin="3dp"
+            android:backgroundTint="#454545"
+            android:text="+"
+            android:textSize="45sp"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_row="5" />
+
+        <ImageButton
+            android:id="@+id/dial"
+            android:layout_width="0dp"
+            android:layout_margin="3dp"
+            app:srcCompat="@android:drawable/ic_menu_call"
+            android:backgroundTint="#03CC24"
+            app:layout_column="0"
+            app:layout_row="6"
+            app:layout_columnWeight="1" />
+
+        <ImageButton
+            android:id="@+id/delete"
+            android:layout_width="0dp"
+            android:layout_margin="3dp"
+            android:backgroundTint="#FF0000"
+            app:layout_column="2"
+            app:layout_row="6"
+            app:layout_columnWeight="1"
+            app:srcCompat="@android:drawable/ic_input_delete" />
+    </androidx.gridlayout.widget.GridLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
